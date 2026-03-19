@@ -31,7 +31,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     })
     await fetch()
 
-    toast.add({ title: 'Registrado ✅', description: 'Sesión iniciada.', color: 'success' })
+    toast.add({ title: 'Registrado', description: 'Sesión iniciada.', color: 'success' })
     await navigateTo('/')
   } catch (error: any) {
     toast.add({
